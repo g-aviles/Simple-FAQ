@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: inter, -google-sans, sans-serif;
+  font-style: normal;
+  color: #030616;
+  padding: auto;
+  margin: auto; 
+  justify-content: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 32px;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 32px;
+  margin-bottom: 60px;
+  color: #4b5563;
+}
+
+body {
+  display: flex;
+  text-align:left;
+  line-height: 1.5;
+  margin-left: 64px;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+ul, ol {
+  padding: 1rem;
+  margin-left: 0;
+}
+
+.page {
+  width: min(100%, 960px);
+  margin: 0 auto;
+}
+
+  h2, h3 {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+  }
+hr.short {
+  width: 50%;
+  border: 1px solid #D2D5DA;
+  margin-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(55, 65, 81);
+  margin: 32px;
+}
+a {
+  color: #4E80EE;
+  text-decoration: none;
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 412px) {
+  /* Mobile styles */
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+  /* Tablet styles */
+}
+
+/* Desktop */
+@media screen and (min-width: 1350px) {
+  /* Desktop styles */
+}
